@@ -14,7 +14,7 @@ Arquivo localizado na raiz do repositório. Contém o resultado consolidado da *
 ---
 
 ### 📁 `questionarios/`
-Esta pasta contém os questionários utilizados para a elicitação de requisitos funcionais e não funcionais junto aos diversos departamentos da organização. Os instrumentos foram adaptados com base na proposta original de:
+Esta pasta contém os questionários utilizados para a elicitação de requisitos funcionais e não funcionais junto aos diversos departamentos da organização, o documento original de SOUZA, C.; SANTANDER, V. o adaptado. Os instrumentos foram adaptados com base na proposta original de:
 
 > SOUZA, C.; SANTANDER, V. Uma Proposta de Elicitação e Análise de Requisitos no Contexto de Médias e Pequenas Empresas de Desenvolvimento de Software. 14th Workshop On Requirements Engineering. Rio de Janeiro, Brasil, 2011.
 
