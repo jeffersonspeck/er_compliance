@@ -1,0 +1,558 @@
+{
+  "actors": [
+    {
+      "id": "9722cbd2-ef13-4a80-8992-4ea639b98d1a",
+      "text": "Empresa",
+      "type": "istar.Agent",
+      "x": 105,
+      "y": 110,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "1bb1bb70-6afa-4fdd-9e1b-9d00de556bcd",
+          "text": "Vender",
+          "type": "istar.Goal",
+          "x": 202,
+          "y": 129,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "b4030db3-a351-4839-a0e2-66fa8d4ff7ea",
+          "text": "Competitividade",
+          "type": "istar.Quality",
+          "x": 106,
+          "y": 219,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "a75fa48f-d40a-4654-89a5-732a960bee9e",
+          "text": "Lucratividade",
+          "type": "istar.Quality",
+          "x": 291,
+          "y": 219,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "9336e621-858e-4fd3-bd58-ca0d6bceb3de",
+      "text": "Administrativo",
+      "type": "istar.Agent",
+      "x": 517,
+      "y": 120,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "cb21d626-95f0-45d0-99d7-6f7b10cd0df5",
+          "text": "Receber Mercadoria",
+          "type": "istar.Task",
+          "x": 611,
+          "y": 141,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "cda496ae-f77a-4433-852e-35dc9c0ed27b",
+          "text": "Emitir Documentos Entradas e Saídas",
+          "type": "istar.Goal",
+          "x": 670,
+          "y": 212,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "34cab232-caff-44a6-b7b8-69e3e60779f6",
+          "text": "Enviar Movimento Fiscal",
+          "type": "istar.Goal",
+          "x": 539,
+          "y": 218,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "8b3e9d75-758d-4d54-9b8e-ec43a6ea7fee",
+      "text": "Contabilidade",
+      "type": "istar.Agent",
+      "x": 121,
+      "y": 405,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "16b72d97-16e8-4587-8bb6-d9c4ef289d61",
+          "text": "Apuração dos Tributos",
+          "type": "istar.Task",
+          "x": 286,
+          "y": 495,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "c4201736-87e1-4784-965d-8fa4bb94e0d4",
+          "text": "Conformidade das Obrigações",
+          "type": "istar.Goal",
+          "x": 207,
+          "y": 417,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "29085f46-9df9-4460-8dc6-e9a0f6d240f0",
+          "text": "Documentos Fiscais",
+          "type": "istar.Resource",
+          "x": 211,
+          "y": 587,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "b7e80ef4-bfb7-4976-83f4-3593676ef2fe",
+          "text": "Registrar Documentos",
+          "type": "istar.Task",
+          "x": 121,
+          "y": 492,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "196c0e41-c230-41cf-83f4-b2518d30f56f",
+      "text": "Cadastro",
+      "type": "istar.Role",
+      "x": 869,
+      "y": 146,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "d56ccdc6-8e90-4421-8964-bc7ea78a3e35",
+          "text": "Cadastrar Cliente Fornecedor",
+          "type": "istar.Goal",
+          "x": 935,
+          "y": 182,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1335d03-1351-44d7-9606-c1754a090cc0",
+      "text": "ERP",
+      "type": "istar.Agent",
+      "x": 498,
+      "y": 477,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "b9399044-7f59-49fa-90fa-33a382ff3881",
+          "text": "Estoque",
+          "type": "istar.Resource",
+          "x": 569,
+          "y": 553,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "587a41d1-7fcd-4884-8290-a924855b3599",
+          "text": "Banco de Dados",
+          "type": "istar.Resource",
+          "x": 570,
+          "y": 507,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "658f7457-5732-45dc-afdd-dd740a2a6595",
+          "text": "Arquivos Fiscais",
+          "type": "istar.Resource",
+          "x": 569,
+          "y": 596,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "f1ced163-fef3-42e6-9f32-55113e8f12b9",
+          "text": "Gerar Relatório",
+          "type": "istar.Task",
+          "x": 675,
+          "y": 550,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    }
+  ],
+  "orphans": [],
+  "dependencies": [
+    {
+      "id": "d4cbfaf6-fbb4-4914-b5ec-364f56a8a29f",
+      "text": "Cadastrar Pessoas",
+      "type": "istar.Task",
+      "x": 874,
+      "y": 421,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "d56ccdc6-8e90-4421-8964-bc7ea78a3e35",
+      "target": "c1335d03-1351-44d7-9606-c1754a090cc0"
+    },
+    {
+      "id": "f6eef222-e5cb-4e51-a1ba-b5eef558166e",
+      "text": "Lançar Entradas",
+      "type": "istar.Task",
+      "x": 653,
+      "y": 386,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "cda496ae-f77a-4433-852e-35dc9c0ed27b",
+      "target": "c1335d03-1351-44d7-9606-c1754a090cc0"
+    },
+    {
+      "id": "73e48a8b-9114-45d0-8a6f-45eeac7857e0",
+      "text": "Emitir Nota Fiscal",
+      "type": "istar.Task",
+      "x": 769,
+      "y": 403,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "cda496ae-f77a-4433-852e-35dc9c0ed27b",
+      "target": "c1335d03-1351-44d7-9606-c1754a090cc0"
+    },
+    {
+      "id": "1be3c32b-371d-4ef5-85de-4bac122bec95",
+      "text": "Qualidade Cadastro",
+      "type": "istar.Quality",
+      "x": 841,
+      "y": 313,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "cda496ae-f77a-4433-852e-35dc9c0ed27b",
+      "target": "d56ccdc6-8e90-4421-8964-bc7ea78a3e35"
+    },
+    {
+      "id": "2135aac2-f64a-4933-88af-f64210115358",
+      "text": "Volume de Vendas",
+      "type": "istar.Quality",
+      "x": 410,
+      "y": 58,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "1bb1bb70-6afa-4fdd-9e1b-9d00de556bcd",
+      "target": "cda496ae-f77a-4433-852e-35dc9c0ed27b"
+    },
+    {
+      "id": "0ed788a5-55e1-4a4b-be9c-cd84f78ee0ef",
+      "text": "Comunicação",
+      "type": "istar.Quality",
+      "x": 395,
+      "y": 284,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "9336e621-858e-4fd3-bd58-ca0d6bceb3de",
+      "target": "8b3e9d75-758d-4d54-9b8e-ec43a6ea7fee"
+    },
+    {
+      "id": "1556a24c-4c25-44da-bd71-53e77580f474",
+      "text": "Documentos Fiscais e Relatórios",
+      "type": "istar.Resource",
+      "x": 547,
+      "y": 329,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "34cab232-caff-44a6-b7b8-69e3e60779f6",
+      "target": "c1335d03-1351-44d7-9606-c1754a090cc0"
+    },
+    {
+      "id": "c0336632-e323-40e2-890e-af146dee3c9f",
+      "text": "Envio Movimento Fiscal",
+      "type": "istar.Task",
+      "x": 424,
+      "y": 372,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "29085f46-9df9-4460-8dc6-e9a0f6d240f0",
+      "target": "34cab232-caff-44a6-b7b8-69e3e60779f6"
+    }
+  ],
+  "links": [
+    {
+      "id": "bf72cc31-64f2-4eae-a504-89aafbfa08af",
+      "type": "istar.ContributionLink",
+      "source": "1bb1bb70-6afa-4fdd-9e1b-9d00de556bcd",
+      "target": "a75fa48f-d40a-4654-89a5-732a960bee9e",
+      "label": "make"
+    },
+    {
+      "id": "b7e4dbe2-ce20-4d66-83d5-a56aecdb9f30",
+      "type": "istar.DependencyLink",
+      "source": "d56ccdc6-8e90-4421-8964-bc7ea78a3e35",
+      "target": "d4cbfaf6-fbb4-4914-b5ec-364f56a8a29f"
+    },
+    {
+      "id": "fe6a5f46-4837-49ff-b1fa-bc35cc9c7faa",
+      "type": "istar.DependencyLink",
+      "source": "d4cbfaf6-fbb4-4914-b5ec-364f56a8a29f",
+      "target": "c1335d03-1351-44d7-9606-c1754a090cc0"
+    },
+    {
+      "id": "49a2e16d-e263-45d0-9e3c-603faa39f1a6",
+      "type": "istar.DependencyLink",
+      "source": "cda496ae-f77a-4433-852e-35dc9c0ed27b",
+      "target": "f6eef222-e5cb-4e51-a1ba-b5eef558166e"
+    },
+    {
+      "id": "4cbd7647-b604-4a97-91a4-72cc028845a9",
+      "type": "istar.DependencyLink",
+      "source": "f6eef222-e5cb-4e51-a1ba-b5eef558166e",
+      "target": "c1335d03-1351-44d7-9606-c1754a090cc0"
+    },
+    {
+      "id": "1fb1b1b4-7d0a-4b3f-8cd0-01064985c02f",
+      "type": "istar.DependencyLink",
+      "source": "cda496ae-f77a-4433-852e-35dc9c0ed27b",
+      "target": "73e48a8b-9114-45d0-8a6f-45eeac7857e0"
+    },
+    {
+      "id": "5a843208-aef6-49a6-97cd-7f0de187d8e4",
+      "type": "istar.DependencyLink",
+      "source": "73e48a8b-9114-45d0-8a6f-45eeac7857e0",
+      "target": "c1335d03-1351-44d7-9606-c1754a090cc0"
+    },
+    {
+      "id": "3239061b-1d81-450f-b36c-009733562686",
+      "type": "istar.DependencyLink",
+      "source": "cda496ae-f77a-4433-852e-35dc9c0ed27b",
+      "target": "1be3c32b-371d-4ef5-85de-4bac122bec95"
+    },
+    {
+      "id": "c04ad02c-2cc8-4ea1-85fd-80f5f879fcac",
+      "type": "istar.DependencyLink",
+      "source": "1be3c32b-371d-4ef5-85de-4bac122bec95",
+      "target": "d56ccdc6-8e90-4421-8964-bc7ea78a3e35"
+    },
+    {
+      "id": "9992cf9a-b818-46a4-89dc-d1b6e9ac545d",
+      "type": "istar.ContributionLink",
+      "source": "b4030db3-a351-4839-a0e2-66fa8d4ff7ea",
+      "target": "a75fa48f-d40a-4654-89a5-732a960bee9e",
+      "label": "help"
+    },
+    {
+      "id": "dc769aae-99aa-497a-9a98-4fbc7bd07c3d",
+      "type": "istar.DependencyLink",
+      "source": "1bb1bb70-6afa-4fdd-9e1b-9d00de556bcd",
+      "target": "2135aac2-f64a-4933-88af-f64210115358"
+    },
+    {
+      "id": "10f982bf-a6c0-4621-8b91-44a48eccf1ba",
+      "type": "istar.DependencyLink",
+      "source": "2135aac2-f64a-4933-88af-f64210115358",
+      "target": "cda496ae-f77a-4433-852e-35dc9c0ed27b"
+    },
+    {
+      "id": "e7ac13af-5e40-43b9-a044-78089ca9b91b",
+      "type": "istar.DependencyLink",
+      "source": "9336e621-858e-4fd3-bd58-ca0d6bceb3de",
+      "target": "0ed788a5-55e1-4a4b-be9c-cd84f78ee0ef"
+    },
+    {
+      "id": "8edc16ee-a826-4e0e-be18-f2d4b9e835c4",
+      "type": "istar.DependencyLink",
+      "source": "0ed788a5-55e1-4a4b-be9c-cd84f78ee0ef",
+      "target": "8b3e9d75-758d-4d54-9b8e-ec43a6ea7fee"
+    },
+    {
+      "id": "729b6fd5-6892-4586-a9b6-fb9f6d818ce3",
+      "type": "istar.DependencyLink",
+      "source": "34cab232-caff-44a6-b7b8-69e3e60779f6",
+      "target": "1556a24c-4c25-44da-bd71-53e77580f474"
+    },
+    {
+      "id": "fb6eb99e-ebb5-4376-9d6d-a441e945fb30",
+      "type": "istar.DependencyLink",
+      "source": "1556a24c-4c25-44da-bd71-53e77580f474",
+      "target": "c1335d03-1351-44d7-9606-c1754a090cc0"
+    },
+    {
+      "id": "77d5bfe0-e3bc-4578-9e9f-9eac072ea781",
+      "type": "istar.DependencyLink",
+      "source": "29085f46-9df9-4460-8dc6-e9a0f6d240f0",
+      "target": "c0336632-e323-40e2-890e-af146dee3c9f"
+    },
+    {
+      "id": "4c0dc3f3-f35d-4df5-84c5-b0c8a5552c99",
+      "type": "istar.DependencyLink",
+      "source": "c0336632-e323-40e2-890e-af146dee3c9f",
+      "target": "34cab232-caff-44a6-b7b8-69e3e60779f6"
+    },
+    {
+      "id": "10ea6d6f-c0e9-407c-bea7-2b4a2a3af532",
+      "type": "istar.NeededByLink",
+      "source": "29085f46-9df9-4460-8dc6-e9a0f6d240f0",
+      "target": "16b72d97-16e8-4587-8bb6-d9c4ef289d61"
+    },
+    {
+      "id": "69f8a754-b5b2-4891-8f9c-fe9c7d95e523",
+      "type": "istar.NeededByLink",
+      "source": "29085f46-9df9-4460-8dc6-e9a0f6d240f0",
+      "target": "b7e80ef4-bfb7-4976-83f4-3593676ef2fe"
+    },
+    {
+      "id": "ea326e09-7b8f-4988-a020-5efe0745d437",
+      "type": "istar.AndRefinementLink",
+      "source": "b7e80ef4-bfb7-4976-83f4-3593676ef2fe",
+      "target": "c4201736-87e1-4784-965d-8fa4bb94e0d4"
+    },
+    {
+      "id": "3785568a-6601-4a96-a786-ddd2221d286c",
+      "type": "istar.AndRefinementLink",
+      "source": "16b72d97-16e8-4587-8bb6-d9c4ef289d61",
+      "target": "c4201736-87e1-4784-965d-8fa4bb94e0d4"
+    }
+  ],
+  "display": {
+    "1bb1bb70-6afa-4fdd-9e1b-9d00de556bcd": {
+      "width": 97.96875,
+      "height": 46.84375
+    },
+    "b4030db3-a351-4839-a0e2-66fa8d4ff7ea": {
+      "width": 119.00460815429688,
+      "height": 59.34968566894531
+    },
+    "a75fa48f-d40a-4654-89a5-732a960bee9e": {
+      "width": 118.00430297851562,
+      "height": 56.84973907470703
+    },
+    "cb21d626-95f0-45d0-99d7-6f7b10cd0df5": {
+      "width": 114.96875,
+      "height": 60.84375
+    },
+    "cda496ae-f77a-4433-852e-35dc9c0ed27b": {
+      "width": 127.96875,
+      "height": 71.84375
+    },
+    "34cab232-caff-44a6-b7b8-69e3e60779f6": {
+      "width": 116.96875,
+      "height": 54.84375
+    },
+    "16b72d97-16e8-4587-8bb6-d9c4ef289d61": {
+      "width": 105.96875,
+      "height": 49.84375
+    },
+    "c4201736-87e1-4784-965d-8fa4bb94e0d4": {
+      "width": 108.96875,
+      "height": 47.84375
+    },
+    "29085f46-9df9-4460-8dc6-e9a0f6d240f0": {
+      "width": 97.96875,
+      "height": 51.84375
+    },
+    "b7e80ef4-bfb7-4976-83f4-3593676ef2fe": {
+      "width": 96.96875,
+      "height": 53.84375
+    },
+    "d56ccdc6-8e90-4421-8964-bc7ea78a3e35": {
+      "width": 103.96875,
+      "height": 64.84375
+    },
+    "f1ced163-fef3-42e6-9f32-55113e8f12b9": {
+      "width": 106.96875,
+      "height": 41.84375
+    },
+    "d4cbfaf6-fbb4-4914-b5ec-364f56a8a29f": {
+      "width": 100.96875,
+      "height": 41.84375
+    },
+    "f6eef222-e5cb-4e51-a1ba-b5eef558166e": {
+      "width": 103.96875,
+      "height": 48.84375
+    },
+    "73e48a8b-9114-45d0-8a6f-45eeac7857e0": {
+      "width": 96.96875,
+      "height": 44.84375
+    },
+    "1556a24c-4c25-44da-bd71-53e77580f474": {
+      "width": 98.96875,
+      "height": 48.84375
+    },
+    "c0336632-e323-40e2-890e-af146dee3c9f": {
+      "width": 100.96875,
+      "height": 49.84375
+    },
+    "10f982bf-a6c0-4621-8b91-44a48eccf1ba": {
+      "vertices": [
+        {
+          "x": 741,
+          "y": 103
+        }
+      ]
+    },
+    "8edc16ee-a826-4e0e-be18-f2d4b9e835c4": {
+      "vertices": [
+        {
+          "x": 294,
+          "y": 366
+        }
+      ]
+    },
+    "77d5bfe0-e3bc-4578-9e9f-9eac072ea781": {
+      "vertices": [
+        {
+          "x": 366,
+          "y": 560
+        },
+        {
+          "x": 439,
+          "y": 509
+        }
+      ]
+    }
+  },
+  "tool": "pistar.2.0.0",
+  "istar": "2.0",
+  "saveDate": "Wed, 16 Apr 2025 21:23:57 GMT",
+  "diagram": {
+    "width": 2000,
+    "height": 1436,
+    "name": "Actors",
+    "customProperties": {
+      "Description": "Atores"
+    }
+  }
+}

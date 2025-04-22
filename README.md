@@ -22,7 +22,8 @@ A adaptação teve como foco a análise de processos administrativos e fiscais, 
 
 ---
 
-(*Outros arquivos ou pastas do repositório podem ser descritos abaixo, conforme necessário.*)
+### 📄 `Arquivos Gerais`
+Arquivos como imagens, tabelas, gráficos, diagramas estão anexados dentro deste repositório
 
 ---
 
